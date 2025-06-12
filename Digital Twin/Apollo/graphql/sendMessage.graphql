@@ -1,0 +1,18 @@
+mutation SendMessage($chatId: ID!, $text: String!) {
+  sendMessage(chatId: $chatId, text: $text) {
+    id
+    text
+    role
+    createdAt
+    imageUrls
+    toolCalls {
+      id
+      name
+      isCompleted
+      result {
+        content
+        imageUrls
+      }
+    }
+  }
+}

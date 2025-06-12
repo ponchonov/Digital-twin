@@ -1,0 +1,14 @@
+query GetChats {
+  getChats(first: 11, offset: 5) {
+    id
+    name
+    createdAt
+    messages {
+    text
+      imageUrls
+      id
+      createdAt
+      role
+    }
+  }
+}

@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052A3F122DF7BB2300BC8D89 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 052A3F112DF7BB2300BC8D89 /* Apollo */; };
+		9736D2E72DF929C500F14598 /* SchemaAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 9736D2E62DF929C500F14598 /* SchemaAPI */; };
+		97E003C32DF935C500AACF08 /* SchemaAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 97E003C22DF935C500AACF08 /* SchemaAPI */; };
+		97E003C82DF9397200AACF08 /* SchemaAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 97E003C72DF9397200AACF08 /* SchemaAPI */; };
+		97E003CE2DFA16F200AACF08 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 97E003CD2DFA16F200AACF08 /* Kingfisher */; };
+		97E003D32DFA1CDA00AACF08 /* SchemaAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 97E003D22DFA1CDA00AACF08 /* SchemaAPI */; };
+		97E003D82DFA22CB00AACF08 /* SchemaAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 97E003D72DFA22CB00AACF08 /* SchemaAPI */; };
+		97E003E92DFA47CF00AACF08 /* SchemaAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 97E003E82DFA47CF00AACF08 /* SchemaAPI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05DC6B152DF78D5400418815 /* Digital Twin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Twin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		05DC6B172DF78D5400418815 /* Digital Twin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Digital Twin";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05DC6B122DF78D5400418815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E003D32DFA1CDA00AACF08 /* SchemaAPI in Frameworks */,
+				97E003C82DF9397200AACF08 /* SchemaAPI in Frameworks */,
+				97E003D82DFA22CB00AACF08 /* SchemaAPI in Frameworks */,
+				97E003C32DF935C500AACF08 /* SchemaAPI in Frameworks */,
+				97E003E92DFA47CF00AACF08 /* SchemaAPI in Frameworks */,
+				9736D2E72DF929C500F14598 /* SchemaAPI in Frameworks */,
+				052A3F122DF7BB2300BC8D89 /* Apollo in Frameworks */,
+				97E003CE2DFA16F200AACF08 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DC6B0C2DF78D5400418815 = {
+			isa = PBXGroup;
+			children = (
+				05DC6B172DF78D5400418815 /* Digital Twin */,
+				05DC6B162DF78D5400418815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05DC6B162DF78D5400418815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DC6B152DF78D5400418815 /* Digital Twin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05DC6B142DF78D5400418815 /* Digital Twin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DC6B232DF78D5600418815 /* Build configuration list for PBXNativeTarget "Digital Twin" */;
+			buildPhases = (
+				05DC6B112DF78D5400418815 /* Sources */,
+				05DC6B122DF78D5400418815 /* Frameworks */,
+				05DC6B132DF78D5400418815 /* Resources */,
+				9736D2D12DF91D2D00F14598 /* Apollo Code Gen */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				05DC6B172DF78D5400418815 /* Digital Twin */,
+			);
+			name = "Digital Twin";
+			packageProductDependencies = (
+				052A3F112DF7BB2300BC8D89 /* Apollo */,
+				9736D2E62DF929C500F14598 /* SchemaAPI */,
+				97E003C22DF935C500AACF08 /* SchemaAPI */,
+				97E003C72DF9397200AACF08 /* SchemaAPI */,
+				97E003CD2DFA16F200AACF08 /* Kingfisher */,
+				97E003D22DFA1CDA00AACF08 /* SchemaAPI */,
+				97E003D72DFA22CB00AACF08 /* SchemaAPI */,
+				97E003E82DFA47CF00AACF08 /* SchemaAPI */,
+			);
+			productName = "Digital Twin";
+			productReference = 05DC6B152DF78D5400418815 /* Digital Twin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05DC6B0D2DF78D5400418815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					05DC6B142DF78D5400418815 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 05DC6B102DF78D5400418815 /* Build configuration list for PBXProject "Digital Twin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05DC6B0C2DF78D5400418815;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				052A3F102DF7BB2300BC8D89 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				97E003CC2DFA16F200AACF08 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				97E003E72DFA47CF00AACF08 /* XCLocalSwiftPackageReference "schema" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 05DC6B162DF78D5400418815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05DC6B142DF78D5400418815 /* Digital Twin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DC6B132DF78D5400418815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9736D2D12DF91D2D00F14598 /* Apollo Code Gen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Apollo Code Gen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05DC6B112DF78D5400418815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05DC6B212DF78D5600418815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05DC6B222DF78D5600418815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DC6B242DF78D5600418815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Digital Twin/Digital Twin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"\"";
+				DEVELOPMENT_TEAM = S2Z2BFMDP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Digital-Twin-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera usage description";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Using the health to get more info";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuevas.Digital-Twin2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05DC6B252DF78D5600418815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Digital Twin/Digital Twin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"\"";
+				DEVELOPMENT_TEAM = S2Z2BFMDP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Digital-Twin-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera usage description";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Using the health to get more info";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuevas.Digital-Twin2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DC6B102DF78D5400418815 /* Build configuration list for PBXProject "Digital Twin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DC6B212DF78D5600418815 /* Debug */,
+				05DC6B222DF78D5600418815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DC6B232DF78D5600418815 /* Build configuration list for PBXNativeTarget "Digital Twin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DC6B242DF78D5600418815 /* Debug */,
+				05DC6B252DF78D5600418815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		97E003E72DFA47CF00AACF08 /* XCLocalSwiftPackageReference "schema" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = schema;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		052A3F102DF7BB2300BC8D89 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.22.0;
+			};
+		};
+		97E003CC2DFA16F200AACF08 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		052A3F112DF7BB2300BC8D89 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 052A3F102DF7BB2300BC8D89 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		9736D2E62DF929C500F14598 /* SchemaAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SchemaAPI;
+		};
+		97E003C22DF935C500AACF08 /* SchemaAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SchemaAPI;
+		};
+		97E003C72DF9397200AACF08 /* SchemaAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SchemaAPI;
+		};
+		97E003CD2DFA16F200AACF08 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97E003CC2DFA16F200AACF08 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		97E003D22DFA1CDA00AACF08 /* SchemaAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SchemaAPI;
+		};
+		97E003D72DFA22CB00AACF08 /* SchemaAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SchemaAPI;
+		};
+		97E003E82DFA47CF00AACF08 /* SchemaAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SchemaAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 05DC6B0D2DF78D5400418815 /* Project object */;
+}
